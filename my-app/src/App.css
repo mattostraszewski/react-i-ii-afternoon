@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  }
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header {
+    height: 100px;
+    width: 100vw;
+    background-color: skyblue;
+  }
+
+  .home {
+    margin-left: 100px;
+    margin-top: 30px;
+  }
+
+  .body {
+    height: 800px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    height: 500px;
+    width: 85vw;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+   }
+
+  .peeps {
+    margin-left: 100px;
+  }
+
+  .counter {
+    margin-left: 625px;
+    margin-bottom: 420px;
+  }
+
+  .allButtons {
+  margin-top: 10px ;
+  display: flex;
+  flex-direction: row;
+  }
+
+  .derp {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+  }
+
+  .noClick {
+   padding: 10px;
+    border-radius: 30%;
+    background-color: skyblue;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border: black;
+  }
+
+  .changeButtonPrev {
+    font-size: 25px;
+    padding: 0;
+    border: none;
+    background: none;
+    color: white;
+    margin-right: 290px;
+    margin-top: 10px;
+  }
+
+  .changeButtonNext {
+    font-size: 25px;
+    padding: 0;
+    border: none;
+    background: none;
+    color: white;
+    margin-left: 450px;
+    margin-top: 10px;
+  }

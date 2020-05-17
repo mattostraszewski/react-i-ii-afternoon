@@ -8,15 +8,19 @@ export default class Buttons extends Component {
 
       <div className='allButtons'>
 
-        <button className='changeButton' onClick={this.props.previous}>{`< Previous`}</button>
+        <button className='changeButtonPrev' onClick={this.props.previous}>{`< Previous`}</button>
 
-        <button className='noClick'>Edit</button>
+        <div className='derp'>
 
-        <button className='noClick' onClick={this.props.delete}>Delete</button>
+          <button className='noClick'>Edit</button>
 
-        <button className='noClick'>New</button>
+          <button className='noClick' onClick={this.props.delete}>Delete</button>
 
-        <button className='changeButton' onClick={this.props.next}>Next > </button>
+          <button className='noClick'>New</button>
+
+        </div>
+
+        <button className='changeButtonNext' onClick={this.props.next}>Next > </button>
 
       </div>
 

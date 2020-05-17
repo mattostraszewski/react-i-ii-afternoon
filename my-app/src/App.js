@@ -57,11 +57,6 @@ export default class App extends Component {
     }
   }
 
-  edit = () => {
-
-  }
-
-
   render() {
     const { peopleData, pageCount } = this.state
     const currentPerson = peopleData[pageCount - 1] //Putting pageCount - 1 in [] is representing index of peopleData
@@ -72,17 +67,16 @@ export default class App extends Component {
       <div className='App' >
 
         <div className='header'>
-          <h1>Home</h1>
+          <h2 className='home'>Home</h2>
         </div>
 
         <div className='body'>
           <div className='card'>
             <People person={currentPerson} count={peopleData.length} index={pageCount} />
           </div>
-        </div>
 
-        <div className='allButtons'>
           <Buttons previous={this.previousPage} next={this.nextPage} delete={this.delete} />
+
         </div>
 
       </div>
